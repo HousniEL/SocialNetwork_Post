@@ -1,0 +1,79 @@
+
+<div class="conteneur post" >
+    <div class="central-meta item" style="display: inline-block;">
+        <div class="user-post">
+            <div class="post-info">
+                <figure>
+                    <img src="{{post?.pers?.img}}">
+                </figure>
+                <div class="info-pers">
+                    <h6>{{post?.pers?.nom}}</h6>
+                    <span>publier : {{post?.date}}</span>
+                </div>
+                
+                <div class="description">
+                        
+                    <p>
+                        {{post?.text}}
+                    </p>
+                </div>
+                <div class="post-meta">
+                    <img src="{{post?.img}}" alt="">
+                    <div class="post-review">
+                        <ul>
+                            <li>
+                                <span class="views">
+                                    <i class="fa fa-eye"></i>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="comments">
+                                    <i class="fa fa-comments-o"></i>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="like">
+                                    <i style="color: aqua;" class="ti-heart"></i>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="dislike">
+                                    <i style="color: brown;" class="ti-heart-broken"></i>                                        </span>
+                            </li>
+                            <li class="social-media">
+                                <div class="menu">
+                                  <div class="btn trigger"><i style="font-size: 1.2rem;" class="fa fa-share-alt"></i></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="comment-area" >
+                <ul class="addComment">
+                    <app-comment *ngFor='let comment of post?.comments' [comment]="comment"></app-comment>
+                    <li>
+                        <a href="#" title="" class="more-comments underline">plus de commentaires</a>
+                    </li>
+                    <li class="post-comments">
+                        <div class="post-comt-box">
+                            <form method="post" onsubmit="return false">
+                                <textarea placeholder="vos commentaires"></textarea>
+                                <div class="add-comment">
+                                    <button type="" class="btn">Post</button> 
+                                </div>           
+                            </form>	
+                        </div>
+                    </li>
+                </ul>
+            </div>
+       </div>
+    
+    </div> 
+
+
+        
+</div>
+
+
+

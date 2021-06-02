@@ -1,0 +1,35 @@
+li {
+    margin-bottom: 20px;
+}
+
+.comet-user {
+    display: table-cell;
+    max-width: 7.6%;
+    vertical-align: top;
+    width: 7.6%;
+}
+
+
+.we-comments {
+    border: 1px solid #ede9e9;
+    display: table-cell;
+    margin-left: 20px;
+    padding: 10px;
+    vertical-align: top;
+    position: relative;
+    width: 65%;
+}
+
+.coment-head {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+    border-radius: 100%;
+}

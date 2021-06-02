@@ -1,0 +1,289 @@
+@media screen and (max-width: 980px){
+    .central-meta {
+        margin: 10px 10px 10px 0;
+        width: 100%;
+    }
+    .conteneur{
+        width: 98%;
+        margin: 6px auto;
+    }
+    p{
+        font-size: 14px;
+    }
+    h5{
+        font-size: 15px;
+    }
+    span{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 640px){
+p {
+    font-size: 13px;
+}
+}
+@media screen and (min-width: 980px){
+
+    .conteneur{
+        width: 35%; 
+        margin: 20px auto;
+    }
+}
+.central-meta {
+    background: #fdfdfd none repeat scroll 0 0;
+    border: 1px solid #c4c0c0;
+    border-radius: 3px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+
+div {
+    display: block;
+}
+body {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: #545454;
+}
+html, body {
+    font-family: "Muli", "Segoe Ui";
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.post-info {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.info-pers {
+    display: inline-block;
+    padding-left: 10px;
+    vertical-align: middle;
+    width: 90%;
+    font-size: 8pt;
+}
+
+.post-info > figure {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    width: 10%;
+    
+}
+
+
+.description {
+    float: left;
+    margin-top: 12px;
+    width: 100%;
+}
+
+.post-meta {
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.post-meta img{
+    border: 1px solid gray;
+}
+
+.coment-area {
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+.post-review {
+    float: left;
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+    padding: 0;
+    border-bottom: 2px solid gray;
+}
+
+.post-review > ul {
+    margin: 0;
+    float: left;
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+
+.post-review > ul li span {
+    font-size: 17px;
+    font-weight: 400;
+    margin-right: 3px;
+    position: relative;
+}
+
+.post-review > ul li {
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 40px;
+}
+
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+ul {
+    display: block;
+    list-style-type:disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
+ul li div img ,figure img{
+    border-radius: 100%;
+}
+
+figure img{
+    display: inline-block;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+.comet {
+    float: left;
+    width: 100%;
+    padding-left: 0;
+    list-style: none;
+}
+
+.comet > li:last-child {
+    margin-bottom: 0;
+}
+
+.comet > li {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.post-comt-box {
+    display: inline-block;
+    padding-left: 15px;
+    position: relative;
+    width: 93%;
+}
+
+
+.addComment{
+    float: left;
+    width: 100%;
+    padding-left: 0;
+    list-style: none;
+}
+.add-comment {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    line-height: 10px;
+}
+.addComment > li:last-child {
+    margin-bottom: 0;
+}
+
+.addComment > li {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.post-comt-box {
+    display: inline-block;
+    padding-left: 15px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 0;
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.post-comt-box form textarea {
+    background: #f3f3f3 none repeat scroll 0 0;
+    border-color: transparent;
+    border-radius: 3px;
+    color: #000000;
+    font-size: 13.5px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 16px;
+}
+
+.addComment li .more-comments {
+    display: table;
+    font-size: 12px;
+    margin: 0 auto;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+textarea {
+    border: 1px solid #eeeeee;
+    border-radius: 6px 6px 0 0;
+    padding: 10px;
+    width: 100%;
+    border-bottom: 0;
+    resize: none;
+    overflow: auto;
+    resize: vertical;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
