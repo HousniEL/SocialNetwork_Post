@@ -1,4 +1,4 @@
-### Visualisation des posts dans un réseau sociaux
+### Visualisation des posts dans un réseau sociaux en utilisant Angular
 
 #### Contributeurs
 
